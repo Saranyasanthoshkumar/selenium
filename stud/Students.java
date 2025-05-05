@@ -1,6 +1,7 @@
 package stud;
 
-public class Students {
+public class Students 
+{
 	public void getStudentInfo(int id)
 	{
 		System.out.println("student id:"+id);
@@ -13,6 +14,7 @@ public class Students {
 	{
 		System.out.println("email:"+email+"  "+"phonenumber:"+phonenumber);
 	}
+	
 public static void main(String[] args)
 {
 	Students obj=new Students();
