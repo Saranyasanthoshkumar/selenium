@@ -1,18 +1,12 @@
 package week5day1;
-
-
-
 import org.openqa.selenium.By;
-
 import org.testng.annotations.Test;
 
-
-
-public class DeleteLead extends ProjectSpecificMethods{
+public class DeleteLead extends ProjectSpecificMethods
+{
 @Test
-	public void deleteLead() throws InterruptedException{
-	
-		
+public void deleteLead() throws InterruptedException
+	{       
 		driver.findElement(By.id("username")).sendKeys("DemoSalesManager");
 		driver.findElement(By.id("password")).sendKeys("crmsfa");
 		driver.findElement(By.className("decorativeSubmit")).click();
