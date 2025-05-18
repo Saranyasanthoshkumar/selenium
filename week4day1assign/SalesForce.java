@@ -1,11 +1,9 @@
 package week4day1assign;
 
 import java.time.Duration;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
