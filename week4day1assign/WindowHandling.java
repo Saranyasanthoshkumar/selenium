@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -20,7 +19,7 @@ public class WindowHandling {
 		driver.get("https://leafground.com/window.xhtml");
 		driver.manage().window().maximize();
 
-	    //to click and conform the window open
+//to click and confirm the window open
 		Thread.sleep(3000);
 		String title1 = driver.getTitle();
 		System.out.println("The Page Title:" + title1);
@@ -60,7 +59,6 @@ public class WindowHandling {
        Set<String> windowClose = driver.getWindowHandles();
 
        List<String> listClose = new ArrayList<String>(windowClose);
-
        int count1 = listClose.size();
        for (int i = 0; i < count1; i++) {
 	   if (!(listClose.get(i).equals(mainWindow1))) {
