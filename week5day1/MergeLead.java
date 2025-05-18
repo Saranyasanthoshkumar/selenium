@@ -4,12 +4,8 @@ package week5day1;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-
 import org.openqa.selenium.By;
-
 import org.testng.annotations.Test;
-
-
 
 public class MergeLead extends ProjectSpecificMethods{
 @Test
