@@ -1,6 +1,4 @@
 package week5day1;
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -9,8 +7,7 @@ import org.testng.annotations.Test;
 
 public class MergeLead extends ProjectSpecificMethods{
 @Test
-	public void mergeLead() throws InterruptedException {
-		
+public void mergeLead() throws InterruptedException {
 		driver.findElement(By.id("username")).sendKeys("DemoSalesManager");
 		driver.findElement(By.id("password")).sendKeys("crmsfa");
 		driver.findElement(By.className("decorativeSubmit")).click();
