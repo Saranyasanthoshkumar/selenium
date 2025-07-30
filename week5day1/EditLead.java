@@ -1,17 +1,10 @@
 package week5day1;
-
-
-
 import org.openqa.selenium.By;
-
 import org.testng.annotations.Test;
-
-
-
 public class EditLead extends ProjectSpecificMethods{
-	@Test
 
-	public  void editLead() throws InterruptedException {
+@Test
+public  void editLead() throws InterruptedException {
 		
 		driver.findElement(By.id("username")).sendKeys("DemoSalesManager");
 		driver.findElement(By.id("password")).sendKeys("crmsfa");
