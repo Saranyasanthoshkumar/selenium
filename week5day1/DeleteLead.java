@@ -1,7 +1,6 @@
 package week5day1;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-
 public class DeleteLead extends ProjectSpecificMethods
 {
 @Test
@@ -23,6 +22,7 @@ public void deleteLead() throws InterruptedException
 		driver.findElement(By.linkText("Find Leads")).click();
 		driver.findElement(By.xpath("//input[@name='id']")).sendKeys(leadID);
 		driver.findElement(By.xpath("//button[text()='Find Leads']")).click();
+		
 		String text = driver.findElement(By.className("x-paging-info")).getText();
 		if (text.equals("No records to display")) {
 			System.out.println("Text matched");
