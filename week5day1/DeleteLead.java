@@ -3,7 +3,8 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 public class DeleteLead extends ProjectSpecificMethods
 {
-@Test
+
+	@Test
 public void deleteLead() throws InterruptedException
 	{       
 		driver.findElement(By.id("username")).sendKeys("DemoSalesManager");
@@ -29,8 +30,10 @@ public void deleteLead() throws InterruptedException
 		} else {
 			System.out.println("Text not matched");
 		}
+		
 		driver.close();
 }
 }
+
 
 
