@@ -1,20 +1,13 @@
 package week5day1;
-
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-
 
 public class CreateLead extends ProjectSpecificMethods{
 	@Test
 
 public void main(String[] args) {
-
-	
 
 	// Enter UserName and Password Using Id Locator
 	WebElement elementUserName = driver.findElement(By.id("username"));
@@ -78,8 +71,7 @@ public void main(String[] args) {
 
 	// Get the Title of Resulting Page
 	System.out.println("Title of Resulting Page:" + driver.getTitle());
-	
 	driver.close();
 }
-
 }
+
